@@ -1118,27 +1118,21 @@
     <script>
       gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 
-      // Determine section ends based on screen width
+      // Define the end points for different sections
       const screenWidth = window.innerWidth;
 
       const animationEndPoints =
         screenWidth < 1600
           ? {
               herosectionend: 0.15,
-              journeysection1end: 0.25,
-              journeysection2end: 0.3,
-              journeysection3end: 0.35,
-              journeysection4end: 0.45,
+              journeySectionEnd: 0.45, // Combined journey section end
               ourpurposeend: 0.6,
               ourvalueend: 0.75,
               ourcommunitiesend: 1,
             }
           : {
               herosectionend: 0.2,
-              journeysection1end: 0.25,
-              journeysection2end: 0.3,
-              journeysection3end: 0.32,
-              journeysection4end: 0.4,
+              journeySectionEnd: 0.4, // Combined journey section end
               ourpurposeend: 0.6,
               ourvalueend: 0.85,
               ourcommunitiesend: 1,
@@ -1175,7 +1169,7 @@
             alignOrigin: [0.5, 1],
             autoRotate: 90,
             start: animationEndPoints.herosectionend,
-            end: animationEndPoints.journeysection1end,
+            end: animationEndPoints.journeySectionEnd, // Combined journey section
           },
         })
         .to("#circleFollower", {
@@ -1184,37 +1178,7 @@
             align: "#mypath",
             alignOrigin: [0.5, 1],
             autoRotate: 90,
-            start: animationEndPoints.journeysection1end,
-            end: animationEndPoints.journeysection2end,
-          },
-        })
-        .to("#circleFollower", {
-          motionPath: {
-            path: "#mypath",
-            align: "#mypath",
-            alignOrigin: [0.5, 1],
-            autoRotate: 90,
-            start: animationEndPoints.journeysection2end,
-            end: animationEndPoints.journeysection3end,
-          },
-        })
-        .to("#circleFollower", {
-          motionPath: {
-            path: "#mypath",
-            align: "#mypath",
-            alignOrigin: [0.5, 1],
-            autoRotate: 90,
-            start: animationEndPoints.journeysection3end,
-            end: animationEndPoints.journeysection4end,
-          },
-        })
-        .to("#circleFollower", {
-          motionPath: {
-            path: "#mypath",
-            align: "#mypath",
-            alignOrigin: [0.5, 1],
-            autoRotate: 90,
-            start: animationEndPoints.journeysection4end,
+            start: animationEndPoints.journeySectionEnd,
             end: animationEndPoints.ourpurposeend,
           },
         })
