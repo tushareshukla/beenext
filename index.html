@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <style>
+      /*svg.customSvg {*/
+      /*  position: absolute;*/
+      /*  top: 400px;*/
+      /*  left: 0;*/
+      /*  right: 0;*/
+      /*  width: 90vw;*/
+      /*  margin: auto;*/
+      /*  height: 6099px;*/
+      /*  z-index: 1;*/
+      /*}*/
+      /*.ourjourneySectionMain {*/
+      /*  height: 3340px;*/
+      /*}*/
+      /*#ourPurposemainId {*/
+      /*  height: 403px;*/
+      /*}*/
+      /*.OurValuesMain {*/
+      /*  height: 628px;*/
+      /*}*/
+      /*.ourCommunitiesMain {*/
+      /*  height: 801px;*/
+      /*}*/
+      /*.communityinActionMain {*/
+      /*  height: 460px;*/
+      /*}*/
+      #circleFollower {
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+      }
+
+      #scrollContainer {
+        position: relative;
+        height: 100vh;
+        overflow-y: scroll;
+      }
+
+      .customSvg {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .ast-scroll-top {
+        display: none !important;
+      }
+
+      .impactFiltersSection {
+        min-width: 25%;
+        background: #eaecef;
+        padding: 2rem;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        height: fit-content;
+        max-width: 25%;
+      }
+      .singlcardheight {
+        height: fit-content !important;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="mainHeader">
+      <div class="head">
+        <a href="##"
+          ><img
+            class="beeNextLogo"
+            src="https://simplileapdigital.com/beenext/assets/beenext_logo_bold.svg"
+            alt="BEENEXT"
+          />
+        </a>
+
+        <div class="navs">
+          <a
+            style="color: black !important"
+            href="https://simplileapdigital.com/beenext/community-in-action/"
+            ><span>Community in Action</span></a
+          >
+          <a
+            style="color: black !important"
+            href="https://www.beenext.com/portfolio/"
+            ><span>Portfolio</span></a
+          >
+        </div>
+      </div>
+    </header>
+    <div class="heroSectionMain">
+      <div class="communitySection">
+        <h1 class="h1Header">Our Community of Entrepreneurs</h1>
+        <p class="headerPara">
+          A diverse community of <span>builders and believers</span> driven by
+          an innate need to challenge the unknown and create a lasting impact.
+          Our global community empowers founders to cross-pollinate ideas and
+          connect the dots.
+        </p>
+      </div>
+      <div class="worldMapContainer">
+        <img src="./assets/herogif.gif" alt="World Map" class="worldMap" />
+      </div>
+    </div>
+    <!-- =================================== -->
+    <div class="container sectionMargin ourjourneySectionMain">
+      <p class="paraTagHeader paraTagHeaderOurJourney">Our&nbsp;Journey</p>
+      <div class="ourjourneySection">
+        <div class="timeline">
+          <div class="line"></div>
+          <div class="section">
+            <p class="beadYear">2000 - 2013</p>
+            <div class="bead"></div>
+            <div class="content">
+              <p class="contentPara">
+                The concept of a <span>“community”</span> evolves and grows with
+                the <span>founder mindset</span> at its core, inspired by
+                emerging markets and technological innovation.
+              </p>
+              <img class="contentImg" src="./assets/imgJourney1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="section">
+            <p class="beadYear">2014</p>
+            <div class="bead"></div>
+            <div class="content">
+              <p class="contentPara">
+                <span>The very first BEE Global Camp was held in Singapore</span
+                >, a camp with over 30 founders coming together to learn,
+                innovate and bond.
+              </p>
+              <img class="contentImg" src="./assets/ourJourney2.png" alt="" />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">2015</p>
+            <div class="bead"></div>
+            <div class="content">
+              <div>
+                <p class="contentPara">
+                  Our focus consolidates with the launch of BEENEXT in the form
+                  of our <span>BEENEXT1 Fund</span> valued at USD 80 million.
+                </p>
+                <p class="contentPara contentParaCust">
+                  <span> Hosted the second BEE Global Camp in Indonesia. </span>
+                </p>
+              </div>
+
+              <img class="contentImg" src="./assets/ourJourney3.png" alt="" />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear" id="thirdtrigger">2016</p>
+            <div class="bead"></div>
+            <div class="content">
+              <p class="contentPara">
+                Continued forging of
+                <span
+                  >cross-border communities in India with BEE Global Camp’s
+                  first-ever session hosted in Bengaluru</span
+                >, attended by 122 founders from 58 companies across 12
+                countries.
+              </p>
+              <img class="contentImg" src="./assets/ourJourney4.png" alt="" />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">2017</p>
+            <div class="bead"></div>
+            <div class="content">
+              <p class="contentPara">
+                Our <span>BEENEXT2 Fund </span> doubles down on
+                <span
+                  >investing in pre-seed / seed stage companies across Southeast
+                  Asia and India.</span
+                >
+              </p>
+              <img class="contentImg" src="./assets/ourJourney5.png" alt="" />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">2018</p>
+            <div class="bead"></div>
+            <div class="content">
+              <div class="sa">
+                <p class="contentPara">
+                  Reinforcing our commitment to
+                  <span>hyperlocal focus with our Opportunity Fund</span>.
+                </p>
+                <p class="contentPara contentParaCust">
+                  The
+                  <span>fourth BEE Global Camp in Ho Chi Minh, Vietnam</span>
+                  brings together 155 founders from 133 companies across 17
+                  countries.
+                </p>
+              </div>
+              <img class="contentImg" src="./assets/ourJourney6.png" alt="" />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">2019</p>
+            <div class="bead"></div>
+            <div class="content">
+              <div class="s">
+                <p class="contentPara">
+                  <span
+                    >The&nbsp;Japanese SaaS Founder Movement kickstarts with the
+                    All Star SaaS Fund.</span
+                  >
+                </p>
+                <p class="contentPara contentParaCust">
+                  <span
+                    >We also interlude in&nbsp;Japan for our first dedicated
+                    SaaS conference & BEE Global Camp;</span
+                  >
+                  attended by 200+ founders from 15 countries.
+                </p>
+                <p class="contentPara contentParaCust">
+                  In addition, our momentum continues with the
+                  <span>BEENEXT3 Fund</span>.
+                </p>
+              </div>
+              <img
+                class="contentImg2019"
+                src="./assets/ourJourney7.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">2020</p>
+            <div class="bead"></div>
+            <div class="content">
+              <div>
+                <p class="contentPara">
+                  <span
+                    >We scale up to invest in growth-stage companies with the
+                    BEENEXT Accelerate Fund 1.</span
+                  >
+                </p>
+
+                <p class="contentPara contentParaCust">
+                  Our&nbsp;Japanese investment grows with All Star SaaS 2.
+                </p>
+                <p class="contentPara contentParaCust">
+                  BEE Global Camp goes online due to the pandemic and founders
+                  forge ties to <span>take the COVID challenge head-on.</span>
+                </p>
+
+                <a class="readOurBlog" href="##">
+                  <span> Read our blog</span>
+                  <img src="./assets/read-more-arrow.png" alt="Read More" />
+                </a>
+              </div>
+
+              <img
+                class="contentImg contentImg2020"
+                src="./assets/ourJourney8.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">2021</p>
+            <div class="bead"></div>
+            <div class="content">
+              <p class="contentPara">
+                With the USD 140 million
+                <span
+                  >BEENEXT Asia Fund and All Star SaaS Bridge Fund accelerate
+                  innovation.</span
+                >
+              </p>
+              <img class="contentImg" src="./assets/ourJourney9.png" alt="" />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear" id="thirdend">2022</p>
+            <div class="bead"></div>
+            <div class="content">
+              <div>
+                <p class="contentPara">
+                  Our investments expand to include companies with our
+                  <span>BEENEXT Asia Fund 2 and All Star SaaS 3 Fund.</span>
+                </p>
+                <p class="contentPara contentParaCust">
+                  Our much-awaited
+                  <span
+                    >reunion after two years at BEE Global Camp in Bali,
+                    Indonesia;</span
+                  >
+                  attended by 300+ founders from 168 companies across 18
+                  countries.
+                </p>
+              </div>
+
+              <img
+                class="contentImg contentImg2022"
+                src="./assets/ourJourney10.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">2023</p>
+            <div class="bead"></div>
+            <div class="content">
+              <div>
+                <p class="contentPara">
+                  <span>BEETogether drives regional focus;</span> a
+                  micro-gathering of like-minded people in
+                  <span>Vietnam, Delhi & Bengaluru.</span>
+                </p>
+                <p class="contentPara contentParaCust">
+                  <span>BEENEXT Accelerate Fund launched</span>
+                  to support fast-growing companies from our early-stage
+                  startups.
+                </p>
+              </div>
+
+              <img class="contentImg" src="./assets/ourJourney11.png" alt="" />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">2024</p>
+            <div class="bead"></div>
+            <div class="content">
+              <p class="contentPara">
+                <span>Hosted the second BEETogether in Jakarta</span> where over
+                70 founders and other ecosystem partners gathered to share their
+                insights and vision for Indonesia’s start-up ecosystem.
+              </p>
+              <img class="contentImg" src="./assets/ourJourney12.png" alt="" />
+            </div>
+          </div>
+          <div class="section">
+            <p class="beadYear">Today</p>
+            <div class="bead"></div>
+            <div class="content">
+              <p class="contentPara">
+                <span
+                  >We embark on the next phase of our journey as a
+                  self-evolving, diverse Community of Founders
+                </span>
+                of over 290 companies across verticals - health tech,
+                climate-tech, new supply chain, deep tech, space tech, fintech &
+                SaaS.
+              </p>
+              <img class="contentImg" src="./assets/imgJourney13.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="skipButton">
+        <p>Skip to Next Section</p>
+        <img src="./assets/Arrow15.png" alt="" />
+      </button>
+    </div>
+    <!-- =================================== -->
+    <div class="container sectionMargin ourPurposeMain" id="ourPurposemainId">
+      <p class="paraTagHeader">Our&nbsp;Purpose</p>
+      <div class="ourPurposeSection">
+        <div class="purposeCards">
+          <div class="cardMain">
+            <img src="./assets/belifs.png" alt="" />
+            <p class="cardHeader">Beliefs</p>
+          </div>
+          <p class="purposeCardsPara">
+            A community built on “Trustship” and a shared value of
+            entrepreneurship can create a virtuous cycle for Founders.
+          </p>
+        </div>
+        <div class="purposeCards">
+          <div class="cardMain">
+            <img src="./assets/mission.png" alt="" />
+            <p class="cardHeader">Mission</p>
+          </div>
+          <p class="purposeCardsPara">
+            Nurture a cross-border community of high-achieving founders driven
+            by shared values.
+          </p>
+        </div>
+        <div class="purposeCards">
+          <div class="cardMain">
+            <img src="./assets/vision.png" alt="" />
+            <p class="cardHeader">Vision</p>
+          </div>
+          <p class="purposeCardsPara">
+            Support a community of passionate builders and believers in building
+            legendary institutions to create a better world.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- =================================== -->
+    <div class="sectionMargin OurValuesMain">
+      <p class="paraTagHeader ourValuesTagHeader">Our&nbsp;Values</p>
+      <div class="ourValuesSection container">
+        <div id="owl-carouselOne" class="owl-carousel owl-theme owl-loaded">
+          <div class="owl-stage-outer">
+            <div class="owl-stage">
+              <div class="owl-item">
+                <div id="ValuesCardSection">
+                  <div class="ourValuesCardSection">
+                    <div class="ourValuesCard">
+                      <p class="ourValueHeader">Founder Mindset</p>
+                    </div>
+                    <p class="ourValuesPara">
+                      Our community is united by passion, purpose, enthusiasm,
+                      respect for our craft, risk-taking, and commitment.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div id="ValuesCardSection">
+                  <div class="ourValuesCardSection">
+                    <div class="ourValuesCard">
+                      <p class="ourValueHeader">Trustship</p>
+                    </div>
+                    <p class="ourValuesPara">
+                      Our partnerships are forged with ‘trustship’ at the core
+                      of what we do.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div id="ValuesCardSection">
+                  <div class="ourValuesCardSection">
+                    <div class="ourValuesCard">
+                      <p class="ourValueHeader">Open-minded</p>
+                    </div>
+                    <p class="ourValuesPara">
+                      We embrace and acknowledge the differences be it in
+                      markets, innovation and thinking.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div id="ValuesCardSection">
+                  <div class="ourValuesCardSection">
+                    <div class="ourValuesCard">
+                      <p class="ourValueHeader">Giving back</p>
+                    </div>
+                    <p class="ourValuesPara">
+                      Our curated global communities empower entrepreneurs to
+                      navigate, give back and grow their ecosystem.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-item">
+                <div id="ValuesCardSection">
+                  <div class="ourValuesCardSection">
+                    <div class="ourValuesCard">
+                      <p class="ourValueHeader">Empathy</p>
+                    </div>
+                    <p class="ourValuesPara">
+                      The key to our long-term partnerships is empathy, honesty
+                      and consistency.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =================================== -->
+    <div class="container ourCommunitiesMain">
+      <p class="paraTagHeader">Our&nbsp;Communities</p>
+      <div class="ourCommunitiesSection">
+        <!--<img-->
+        <!--  class="maskGroup maskGroup1"-->
+        <!--  src="./assets/Mask group.png"-->
+        <!--  alt="Mask group"-->
+        <!--/>-->
+        <!--<img-->
+        <!--  class="maskGroup maskGroup2"-->
+        <!--  src="./assets/Mask group2.png"-->
+        <!--  alt="Mask group"-->
+        <!--/>-->
+        <!--<img-->
+        <!--  class="maskGroup maskGroup3"-->
+        <!--  src="./assets/Mask group3.png"-->
+        <!--  alt="Mask group"-->
+        <!--/>-->
+        <!--<img-->
+        <!--  class="maskGroup maskGroup4"-->
+        <!--  src="./assets/Mask group4.png"-->
+        <!--  alt="Mask group"-->
+        <!--/>-->
+        <div class="communities">
+          <div class="communitiesCard">
+            <div class="communitiesCardContent">
+              <img
+                src="./assets/allStarSAASFund.png"
+                alt="ALL STAR SAAS FUND"
+                class="allStarSaasLogo"
+              />
+              <p class="communitiesCardHeader">All Star SaaS Fund</p>
+              <p class="communitiesCardPara">
+                Our All Star SaaS Fund is a dedicated platform focused on
+                building communities and lasting SaaS businesses in Japan.
+                <br /><br />
+                Today,&nbsp;the All Star SaaS Fund supports over &lt;number of
+                companies invested in&gt; tech companies including HR,&nbsp;
+                logistics,&nbsp;and fitness management.
+              </p>
+            </div>
+
+            <a
+              class="learnMoreLink"
+              target="_blank"
+              href="https://allstarsaas.com/"
+              ><p>Learn more</p>
+              <img src="./assets/Arrow1.png" alt="Arrow 1"
+            /></a>
+          </div>
+          <div class="communitiesCard">
+            <div class="communitiesCardContent">
+              <img
+                class="beeNextLogo"
+                src="https://simplileapdigital.com/beenext/assets/beenext_logo_bold.svg"
+                alt="BEENEXT"
+              />
+              <p class="communitiesCardHeader">Early Stage</p>
+              <p class="communitiesCardPara">
+                The founder-first approach has always been at the core of
+                BEENEXT.<br /><br />
+                Over the past nine years,&nbsp;the BEENEXT Community comprising
+                of early-stage founders has grown to 200+ companies across 17
+                countries and diverse domains.
+              </p>
+            </div>
+
+            <a
+              class="learnMoreLink"
+              target="_blank"
+              href="https://www.beenext.com/"
+              ><p>Learn more</p>
+              <img src="./assets/Arrow1.png" alt="Arrow 1"
+            /></a>
+          </div>
+          <div class="communitiesCard">
+            <div class="communitiesCardContent">
+              <img
+                class="beeNextLogo"
+                src="https://simplileapdigital.com/beenext/assets/beenext_logo_bold.svg"
+                alt="BEENEXT"
+              />
+              <p class="communitiesCardHeader">Accelerate Fund</p>
+              <p class="communitiesCardPara">
+                Lorem ipsum dolor sit amet consectetur. Molestie tellus elit
+                massa ut venenatis morbi. Neque risus lorem mauris quis lectus
+                id integer lectus nisl. Mi porttitor aliquet nisl mollis
+                rhoncus. Vitae nisl eget amet etiam. Facilisi arcu facilisi
+                faucibus massa. Duis condimentum faucibus aliquam et euismod ut
+                tortor tellus a. Eu
+              </p>
+            </div>
+            <a class="learnMoreLink" target="_blank" href="##"
+              ><p>Learn more</p>
+              <img src="./assets/Arrow1.png" alt="Arrow 1"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =================================== -->
+    <div class="communityinActionMain">
+      <p class="paraTagHeader">Community&nbsp;in&nbsp;Action</p>
+      <p class="communityinActionPara">
+        <span>A testament to</span> tomorrow’s future-builders
+        <span>unlocking potential</span>
+      </p>
+      <a href="https://simplileapdigital.com/beenext/community-in-action/"
+        ><button class="communityinActionMainButton">Read more</button></a
+      >
+    </div>
+    <!-- ============================================= -->
+    <div class="footer sectionMargin container">
+      <div class="footerSubMain">
+        <a href="https://simplileapdigital.com/beenext/"
+          ><img
+            class="beeNextLogo"
+            src="https://simplileapdigital.com/beenext/assets/beenext_logo_bold.svg"
+            alt="BEENEXT"
+        /></a>
+
+        <div class="footerLinks">
+          <div class="footerLink1">
+            <a href="https://allstarsaas.com/" style="color: black !important"
+              ><p>All Star Saas Fund</p></a
+            >
+            <a href="https://www.beenext.com/" style="color: black !important"
+              ><p>BEENEXT Early Stage</p></a
+            >
+          </div>
+          <div class="footerLink2">
+            <a
+              href="https://simplileapdigital.com/beenext/community-in-action/"
+              style="color: black !important"
+              ><p>Community in&nbsp;Action</p></a
+            >
+            <a
+              href="https://www.beenext.com/portfolio/"
+              style="color: black !important"
+              ><p>Portfolios</p></a
+            >
+            <a
+              href="https://www.beenext.com/contact/"
+              style="color: black !important"
+              ><p>Contact us</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =================================== -->
+    <div class="copyRights">
+      <div class="container copyRightsCont">
+        <p>COPYRIGHT 2024 @ BEENEXT</p>
+        <!-- <div class="socialMedia">
+            <div class="socialMediaIcons">
+              <a href="https://www.linkedin.com/company/beenext-pte--ltd/"><img src="https://simplileapdigital.com/beenext/wp-content/uploads/2024/08/linkedIn.png" alt="Linked In" />
+            </div></a>
+            <div class="socialMediaIcons">
+              <a href="https://twitter.com/beenextvc"><img style="height: 18px;" src="https://simplileapdigital.com/beenext/wp-content/uploads/2024/08/twitter.png" alt="X" /></a>
+            </div>
+          </div> -->
+      </div>
+    </div>
+    <!-- ============================================ -->
+    <div id="svgContainer"></div>
+    <div id="circleFollower"></div>
+    <!-- <div id="dot" class="dot"></div> -->
+    <!-- =================================== -->
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+
+    <script>
+      //   const nextIconW =
+      //     '<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32.5" cy="32.5" r="32" fill="#2C2C2C" stroke="black"/><path d="M27.6905 22.7675C27.4499 22.5488 27.078 22.5706 26.8593 22.8112C26.6405 23.0519 26.6624 23.4238 26.903 23.6425L35.3686 31.2988C35.5874 31.4956 35.5874 31.78 35.3686 31.9769L26.903 39.3706C26.6624 39.5894 26.6405 39.9613 26.8374 40.2019C27.0561 40.4425 27.428 40.4644 27.6686 40.2675L36.1343 32.8519C36.878 32.1956 36.8999 31.1019 36.1561 30.4237L27.6905 22.7675Z" fill="white"/></svg>';
+      //   const prevIconW =
+      //     '<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32.5" cy="32.5" r="32" fill="#2C2C2C" stroke="black"/><path d="M36.3095 42.2305C36.5501 42.4493 36.922 42.4274 37.1407 42.1868C37.3595 41.9462 37.3376 41.5743 37.097 41.3555L28.6314 33.6993C28.4126 33.5024 28.4126 33.218 28.6314 33.0212L37.097 25.6274C37.3376 25.4087 37.3595 25.0368 37.1626 24.7962C36.9439 24.5555 36.572 24.5337 36.3314 24.7305L27.8657 32.1462C27.122 32.8024 27.1001 33.8962 27.8439 34.5743L36.3095 42.2305Z" fill="white"/></svg>';
+
+      const nextIconBreadCrumb = " &#10094;";
+      const prevIconBreadCrumb = "&#10095;";
+
+      var owl = $("#owl-carouselOne");
+      owl.owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        smartSpeed: 1000,
+        autoplayHoverPause: true,
+        // navText: [prevIconW, nextIconW],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        },
+      });
+      //   owl.on('mousewheel', '.owl-stage', function (e) {
+      //     if (e.deltaY > 0) {
+      //       owl.trigger('next.owl');
+      //     } else {
+      //       owl.trigger('prev.owl');
+      //     }
+      //     e.preventDefault();
+      //   });
+
+      var owl = $("#owl-carouselTwo");
+      owl.owlCarousel({
+        loop: false,
+        nav: true,
+        margin: 15,
+        navText: [nextIconBreadCrumb, prevIconBreadCrumb],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 4,
+          },
+          1200: {
+            items: 6,
+          },
+        },
+      });
+    </script>
+
+    <!-- Line animation script -->
+    <script>
+      function calculateHeights() {
+        // Select elements using their class names or IDs
+        const heroSectionMain = document.querySelector(".heroSectionMain");
+        const ourJourneySectionMain = document.querySelector(
+          ".ourjourneySectionMain"
+        );
+        const ourPurposeMainId = document.getElementById("ourPurposemainId");
+        const ourValuesMain = document.querySelector(".OurValuesMain");
+        const ourCommunitiesMain = document.querySelector(
+          ".ourCommunitiesMain"
+        );
+        const communityInActionMain = document.querySelector(
+          ".communityinActionMain"
+        );
+
+        // Calculate heights
+        const heroHeight = heroSectionMain ? heroSectionMain.offsetHeight : 0;
+        const journeyHeight = ourJourneySectionMain
+          ? ourJourneySectionMain.offsetHeight
+          : 0;
+        const purposeHeight = ourPurposeMainId
+          ? ourPurposeMainId.offsetHeight
+          : 0;
+        const valuesHeight = ourValuesMain ? ourValuesMain.offsetHeight : 0;
+        const communitiesHeight = ourCommunitiesMain
+          ? ourCommunitiesMain.offsetHeight
+          : 0;
+        const communityInActionHeight = communityInActionMain
+          ? communityInActionMain.offsetHeight
+          : 0;
+        const width = window.innerWidth;
+
+        // Log heights to the console
+        console.log("Hero Section Height:", heroHeight);
+        console.log("Our Journey Section Height:", journeyHeight);
+        console.log("Our Purpose Section Height:", purposeHeight);
+        console.log("Our Values Section Height:", valuesHeight);
+        console.log("Our Communities Section Height:", communitiesHeight);
+        console.log(
+          "Community in Action Section Height:",
+          communityInActionHeight
+        );
+
+        totalsectionheight =
+          heroHeight +
+          journeyHeight +
+          purposeHeight +
+          valuesHeight +
+          communityInActionHeight +
+          communitiesHeight;
+        console.log("width", width);
+      }
+      calculateHeights();
+      window.addEventListener("resize", calculateHeights);
+
+      function createFullPageSVG() {
+        const totalHeight = document.documentElement.scrollHeight;
+        const totalWidth = document.documentElement.scrollWidth;
+
+        const svg = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "svg"
+        );
+
+        svg.setAttribute("viewBox", `0 0 ${totalWidth} ${totalHeight}`);
+        svg.setAttribute("width", "100%");
+        svg.setAttribute("height", "100%");
+        svg.setAttribute("id", "mysvg");
+        svg.setAttribute("style", "position: absolute; top: 0; left: 0;");
+
+        svg.style.height = totalHeight;
+
+        document.getElementById("svgContainer").appendChild(svg);
+
+        appendpath();
+      }
+
+      createFullPageSVG();
+
+      window.addEventListener("resize", () => {
+        document.getElementById("svgContainer").innerHTML = "";
+        createFullPageSVG();
+      });
+
+      function appendpath() {
+        const heroSectionMain = document.querySelector(".heroSectionMain");
+        const ourJourneySectionMain = document.querySelector(
+          ".ourjourneySectionMain"
+        );
+        const ourPurposeMainId = document.getElementById("ourPurposemainId");
+        const ourValuesMain = document.querySelector(".OurValuesMain");
+        const ourCommunitiesMain = document.querySelector(
+          ".ourCommunitiesMain"
+        );
+        const communityInActionMain = document.querySelector(
+          ".communityinActionMain"
+        );
+
+        // Calculate heights
+        const heroHeight = heroSectionMain ? heroSectionMain.offsetHeight : 0;
+        const journeyHeight = ourJourneySectionMain
+          ? ourJourneySectionMain.offsetHeight
+          : 0;
+        const purposeHeight = ourPurposeMainId
+          ? ourPurposeMainId.offsetHeight
+          : 0;
+        const valuesHeight = ourValuesMain ? ourValuesMain.offsetHeight : 0;
+        const communitiesHeight = ourCommunitiesMain
+          ? ourCommunitiesMain.offsetHeight
+          : 0;
+        const communityInActionHeight = communityInActionMain
+          ? communityInActionMain.offsetHeight
+          : 0;
+        const width = window.innerWidth;
+
+        var svg = document.getElementById("mysvg");
+
+        // Create a new path element
+        var path = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "path"
+        );
+        path.setAttribute(
+          "d",
+          `M ${0.97 * width} ${0.5 * heroHeight} L ${0.97 * width} ${
+            1.15 * heroHeight
+          } L ${0.03 * width} ${1.15 * heroHeight} L ${0.03 * width} ${
+            1.06 * heroHeight + 1.06 * journeyHeight
+          } L ${0.97 * width} ${1.06 * heroHeight + 1.06 * journeyHeight} L ${
+            0.97 * width
+          } ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            120
+          } L ${0.03 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            120
+          }  L ${0.03 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            valuesHeight +
+            70 +
+            64
+          } L ${0.97 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            valuesHeight +
+            70 +
+            64
+          } L ${0.97 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            1.2 * valuesHeight +
+            communitiesHeight +
+            100
+          } L ${0.03 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            1.2 * valuesHeight +
+            communitiesHeight +
+            100
+          } L ${0.03 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            1.2 * valuesHeight +
+            1 * communitiesHeight +
+            communityInActionHeight
+          } `
+        );
+        path.setAttribute("stroke", "black");
+        path.setAttribute("fill", "transparent");
+        path.setAttribute("id", "mypath");
+        svg.appendChild(path);
+      }
+      // ========================================================================
+
+      function createSecondarySVG() {
+        const totalHeight = document.documentElement.scrollHeight;
+        const totalWidth = document.documentElement.scrollWidth;
+
+        const svg = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "svg"
+        );
+
+        svg.setAttribute("viewBox", `0 0 ${totalWidth} ${totalHeight}`);
+        svg.setAttribute("width", "100%");
+        svg.setAttribute("height", "100%");
+        svg.setAttribute("id", "secondarySvg");
+        svg.setAttribute("style", "position: absolute; top: 0; left: 0;");
+        svg.style.height = totalHeight;
+        document.getElementById("svgContainer").appendChild(svg);
+
+        appendSecondaryPath(svg);
+      }
+
+      function appendSecondaryPath(svg) {
+        const heroSectionMain = document.querySelector(".heroSectionMain");
+        const ourJourneySectionMain = document.querySelector(
+          ".ourjourneySectionMain"
+        );
+        const ourPurposeMainId = document.getElementById("ourPurposemainId");
+        const ourValuesMain = document.querySelector(".OurValuesMain");
+        const ourCommunitiesMain = document.querySelector(
+          ".ourCommunitiesMain"
+        );
+        const communityInActionMain = document.querySelector(
+          ".communityinActionMain"
+        );
+
+        // Calculate heights
+        const heroHeight = heroSectionMain ? heroSectionMain.offsetHeight : 0;
+        const journeyHeight = ourJourneySectionMain
+          ? ourJourneySectionMain.offsetHeight
+          : 0;
+        const purposeHeight = ourPurposeMainId
+          ? ourPurposeMainId.offsetHeight
+          : 0;
+        const valuesHeight = ourValuesMain ? ourValuesMain.offsetHeight : 0;
+        const communitiesHeight = ourCommunitiesMain
+          ? ourCommunitiesMain.offsetHeight
+          : 0;
+        const communityInActionHeight = communityInActionMain
+          ? communityInActionMain.offsetHeight
+          : 0;
+        const width = window.innerWidth;
+
+        const path = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "path"
+        );
+        path.setAttribute(
+          "d",
+          `M ${0.97 * width} ${
+            1.06 * heroHeight + 1.06 * journeyHeight + purposeHeight + 100
+          } L ${0.97 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            120
+          } L ${0.03 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            120
+          }  L ${0.03 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            valuesHeight +
+            80
+          }`
+        );
+
+        path.setAttribute("stroke", "white");
+        path.setAttribute("fill", "transparent");
+        path.setAttribute("id", "secondaryPath");
+        svg.appendChild(path);
+      }
+      createSecondarySVG();
+
+      window.addEventListener("resize", () => {
+        const secondarySvg = document.getElementById("secondarySvg");
+        if (secondarySvg) {
+          secondarySvg.remove();
+        }
+        createSecondarySVG();
+      });
+
+      // ======================================================================
+
+      function createThirdSVG() {
+        const totalHeight = document.documentElement.scrollHeight;
+        const totalWidth = document.documentElement.scrollWidth;
+        const svg = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "svg"
+        );
+
+        svg.setAttribute("viewBox", `0 0 ${totalWidth} ${totalHeight}`);
+        svg.setAttribute("width", "100%");
+        svg.setAttribute("height", "100%");
+        svg.setAttribute("id", "ThirdSvg");
+        svg.setAttribute("style", "position: absolute; top: 0; left: 0;");
+        svg.style.height = totalHeight;
+
+        document.getElementById("svgContainer").appendChild(svg);
+
+        appendThirdPath(svg);
+      }
+
+      function appendThirdPath(svg) {
+        // Get the height of sections
+        const heroSectionMain = document.querySelector(".heroSectionMain");
+        const ourJourneySectionMain = document.querySelector(
+          ".ourjourneySectionMain"
+        );
+        const ourPurposeMainId = document.getElementById("ourPurposemainId");
+        const ourValuesMain = document.querySelector(".OurValuesMain");
+        const ourCommunitiesMain = document.querySelector(
+          ".ourCommunitiesMain"
+        );
+        const communityInActionMain = document.querySelector(
+          ".communityinActionMain"
+        );
+
+        // Calculate heights
+        const heroHeight = heroSectionMain ? heroSectionMain.offsetHeight : 0;
+        const journeyHeight = ourJourneySectionMain
+          ? ourJourneySectionMain.offsetHeight
+          : 0;
+        const purposeHeight = ourPurposeMainId
+          ? ourPurposeMainId.offsetHeight
+          : 0;
+        const valuesHeight = ourValuesMain ? ourValuesMain.offsetHeight : 0;
+        const communitiesHeight = ourCommunitiesMain
+          ? ourCommunitiesMain.offsetHeight
+          : 0;
+        const communityInActionHeight = communityInActionMain
+          ? communityInActionMain.offsetHeight
+          : 0;
+        const width = window.innerWidth;
+
+        const path = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "path"
+        );
+        path.setAttribute(
+          "d",
+          `M  ${0.97 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            1.2 * valuesHeight +
+            communitiesHeight +
+            45
+          } L ${0.97 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            1.2 * valuesHeight +
+            communitiesHeight +
+            100
+          } L ${0.03 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            1.2 * valuesHeight +
+            communitiesHeight +
+            100
+          } L ${0.03 * width} ${
+            1.06 * heroHeight +
+            1.06 * journeyHeight +
+            1.06 * purposeHeight +
+            1.2 * valuesHeight +
+            1 * communitiesHeight +
+            communityInActionHeight
+          }`
+        );
+
+        path.setAttribute("stroke", "white");
+        path.setAttribute("fill", "transparent");
+        path.setAttribute("id", "ThirdPath");
+
+        svg.appendChild(path);
+      }
+
+      createThirdSVG();
+
+      window.addEventListener("resize", () => {
+        const ThirdSvg = document.getElementById("ThirdSvg");
+        if (ThirdSvg) {
+          ThirdSvg.remove();
+        }
+        createThirdSVG();
+      });
+
+      // ========================================================================
+    </script>
+    <script>
+      gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
+
+      // Determine section ends based on screen width
+      const screenWidth = window.innerWidth;
+
+      const animationEndPoints =
+        screenWidth < 1600
+          ? {
+              herosectionend: 0.15,
+              journeysection1end: 0.25,
+              journeysection2end: 0.3,
+              journeysection3end: 0.35,
+              journeysection4end: 0.45,
+              ourpurposeend: 0.6,
+              ourvalueend: 0.75,
+              ourcommunitiesend: 1,
+            }
+          : {
+              herosectionend: 0.2,
+              journeysection1end: 0.25,
+              journeysection2end: 0.3,
+              journeysection3end: 0.32,
+              journeysection4end: 0.4,
+              ourpurposeend: 0.6,
+              ourvalueend: 0.85,
+              ourcommunitiesend: 1,
+            };
+
+      // Create a unified timeline for smooth animation
+      const circleTimeline = gsap.timeline({
+        scrollTrigger: {
+          trigger: "body", // Trigger on the entire page to ensure continuity
+          start: "top top",
+          end: "bottom bottom",
+          scrub: 3, // Control smoothness, adjust scrub value for speed
+          markers: false,
+          ease: "power1.inOut", // Smooth easing for better experience
+        },
+      });
+
+      // Define the unified motionPath for each section in sequence
+      circleTimeline
+        .to("#circleFollower", {
+          motionPath: {
+            path: "#mypath",
+            align: "#mypath",
+            alignOrigin: [0.5, 1],
+            autoRotate: 90,
+            start: 0,
+            end: animationEndPoints.herosectionend,
+          },
+        })
+        .to("#circleFollower", {
+          motionPath: {
+            path: "#mypath",
+            align: "#mypath",
+            alignOrigin: [0.5, 1],
+            autoRotate: 90,
+            start: animationEndPoints.herosectionend,
+            end: animationEndPoints.journeysection1end,
+          },
+        })
+        .to("#circleFollower", {
+          motionPath: {
+            path: "#mypath",
+            align: "#mypath",
+            alignOrigin: [0.5, 1],
+            autoRotate: 90,
+            start: animationEndPoints.journeysection1end,
+            end: animationEndPoints.journeysection2end,
+          },
+        })
+        .to("#circleFollower", {
+          motionPath: {
+            path: "#mypath",
+            align: "#mypath",
+            alignOrigin: [0.5, 1],
+            autoRotate: 90,
+            start: animationEndPoints.journeysection2end,
+            end: animationEndPoints.journeysection3end,
+          },
+        })
+        .to("#circleFollower", {
+          motionPath: {
+            path: "#mypath",
+            align: "#mypath",
+            alignOrigin: [0.5, 1],
+            autoRotate: 90,
+            start: animationEndPoints.journeysection3end,
+            end: animationEndPoints.journeysection4end,
+          },
+        })
+        .to("#circleFollower", {
+          motionPath: {
+            path: "#mypath",
+            align: "#mypath",
+            alignOrigin: [0.5, 1],
+            autoRotate: 90,
+            start: animationEndPoints.journeysection4end,
+            end: animationEndPoints.ourpurposeend,
+          },
+        })
+        .to("#circleFollower", {
+          motionPath: {
+            path: "#mypath",
+            align: "#mypath",
+            alignOrigin: [0.5, 1],
+            autoRotate: 90,
+            start: animationEndPoints.ourpurposeend,
+            end: animationEndPoints.ourvalueend,
+          },
+        })
+        .to("#circleFollower", {
+          motionPath: {
+            path: "#mypath",
+            align: "#mypath",
+            alignOrigin: [0.5, 1],
+            autoRotate: 90,
+            start: animationEndPoints.ourvalueend,
+            end: animationEndPoints.ourcommunitiesend,
+          },
+        });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dot = document.getElementById("circleFollower");
+        const ourValuesSection = document.querySelector(".OurValuesMain");
+        const communityActionSection = document.querySelector(
+          ".communityinActionMain"
+        );
+
+        console.log("dot", dot);
+        console.log("ourValuesSection", ourValuesSection);
+        console.log("communityActionSection", communityActionSection);
+
+        // Function to check dot Y position
+        function checkDotYPosition() {
+          if (!dot || !ourValuesSection || !communityActionSection) {
+            console.error("One or more elements are missing.");
+            return;
+          }
+
+          const dotYPosition = dot.getBoundingClientRect().top;
+
+          const ourValuesTop = ourValuesSection.getBoundingClientRect().top;
+          const ourValuesBottom =
+            ourValuesSection.getBoundingClientRect().bottom;
+
+          const communityActionTop =
+            communityActionSection.getBoundingClientRect().top;
+          const communityActionBottom =
+            communityActionSection.getBoundingClientRect().bottom;
+
+          if (dotYPosition >= ourValuesTop && dotYPosition <= ourValuesBottom) {
+            dot.style.backgroundColor = "white";
+          } else if (
+            dotYPosition >= communityActionTop &&
+            dotYPosition <= communityActionBottom
+          ) {
+            dot.style.backgroundColor = "white";
+          } else {
+            dot.style.backgroundColor = "black";
+          }
+        }
+
+        setInterval(() => {
+          checkDotYPosition();
+        }, 100);
+
+        checkDotYPosition();
+      });
+    </script>
+  </body>
+</html>

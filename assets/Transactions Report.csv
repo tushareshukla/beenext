@@ -1,0 +1,2 @@
+﻿ID,Created At,Transaction Id,TRANSACTION TYPE,Customer Id,Merchant Id,Customer Email,Status,From Address,To Address,Network Fee,Crypto Amount,Fiat Amount,Received Crypto,Fiat Currency,Currency
+,2024-08-26T10:24:00.062Z,0x548c7b156d56f0cff6d5afce554de0a02f225d8e442747a116744ab04b202401,6,INV49,4,,COMPLETED,0x223f5bf6221e3b7ed8061e406093dcb7577d7294,0x09d7e5d3caa88f12d6e1f08da65de31a27eda163,,,,0.223489,,USDT_BSC
